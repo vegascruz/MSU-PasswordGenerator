@@ -17,13 +17,37 @@
     </div>
     <form class="form-control form-control-lg" id="form-override">
         <h2>Generate a Password</h2>
-        <label for="">Number of Characters 8-128</label><br>
-        <input type="text">
-        <label for="">Include lowercase, uppercase, numeric, and/or special characters</label><br>
-        <input type="text">
+        <hr>
+        <div class="prompts-container">
+            <h3>Your Secure Password</h3>
+        </div>
+        <hr>
         <div class="d-grid gap-2 col-3 mx-auto">
-            <button class="btn btn-primary" type="button">Generate Password</button>
+            <button class="btn btn-danger" type="button" style="font-size: 90%;" onclick="generatePrompts()">Generate Password</button>
         </div>
     </form>
 </body>
 </html>
+<!--THESE WERE GONNA BE MY PROMPTS THROUGH A FORM BEFORE I REALIZED IT WAS A WINDOW PROMPT-->
+<!--
+<div class="mb-3">
+    <label for="" class="form-label">Number of Characters 8-128</label>
+    <input type="text" class="form-control" placeholder="Enter a number">
+</div>
+<div class="mb-3" >
+    <label for="" class="form-label">Include lowercase?</label>
+    <input type="text" class="form-control" placeholder="yes or no">
+</div>
+<div class="mb-3" >
+    <label for="" class="form-label">Include Uppercase?</label>
+    <input type="text" class="form-control" placeholder="yes or no">
+</div>
+<div class="mb-3" >
+    <label for="" class="form-label">Include Numberic?</label>
+    <input type="text" class="form-control" placeholder="yes or no">
+</div>
+<div class="mb-3" >
+    <label for="" class="form-label">Include Special Characters?</label>
+    <input type="text" class="form-control" placeholder="yes or no">
+</div>
+-->
