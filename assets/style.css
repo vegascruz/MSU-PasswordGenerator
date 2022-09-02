@@ -1,0 +1,17 @@
+body{
+    background-color: ghostwhite;
+    font-family: Arial, sans-serif;
+}
+.title{
+    margin: 10px;
+}
+.title h1{
+    text-align: center;
+    font-weight: bold;
+}
+#form-override{
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
