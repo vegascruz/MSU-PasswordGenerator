@@ -24,7 +24,7 @@ body{
 }
 form h3{
     text-align: center;
-    margin: 25%;
+    /*margin: 25%;*/
     margin-top: 0px;
     font-size: 22px;
     opacity: 0.5;
